@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.songlist{
+    width:100%;
+}
+.container{
+    width:85vw;
+    min-height: 1px;
+    overflow: scroll;
+    margin:15px auto;
+}
+.container h2{
+    margin-bottom: 0px;
+}
+.songinfo{
+    font-size:0.5rem;
+}
+.nav{
+    font-size:0.8rem;
+}
+nav ul li{
+    padding:0px 10px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.songinfo{
+    font-size: 0.7rem;
+    position: absolute;
+    top: 30px;
+    left: 8vw;
+}

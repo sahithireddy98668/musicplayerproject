@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,200;1,300&family=Supermercado+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,200;1,300;1,600&family=Supermercado+One&display=swap');
+body{
+    background-color: rgb(250, 219, 207);
+    margin:0px;
+    padding:0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    font-family: 'Supermercado One', cursive;
+}
+nav ul{
+    display:flex;
+    height:60px;
+    background-color: black;
+    align-items: center;
+    list-style: none;
+    color:white;
+}
+nav ul li{
+    padding:0px 15px;
+}
+.logo img {
+    height:54px;
+    width:54px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.container{
+    min-height: 73vh;
+    width:70vw;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin:18.5px auto;
+    border-radius: 14px;
+    padding:15px;
+    background-image:url('bg_dup.jpeg');
+    background-repeat: no-repeat;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: bold;
+}
+.container h2{
+    margin-bottom: 30px;
+}
+.songlist img{
+    height:30px;
+    width:30px;
+    margin:0px 10px;
+    border-radius: 18px;
+}
+.songlist{
+    height:40px;
+    width:43%;
+    background-color: white;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 0px;
+    border-radius: 20px;
+}
+.playlist{
+    margin:0px 10px;
+}
+.bottom{
+    position: sticky;
+    bottom:0;
+    height:95px;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.songitemplay{
+    cursor: pointer;
+}
+#myprogressBar{
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left:10vw;
+    font-size: 0.8rem;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.icons{
+    margin-top:15px;
+}
+.icons i{
+    cursor: pointer;
+}
+div input{
+    width: 80vw;
+    
+}

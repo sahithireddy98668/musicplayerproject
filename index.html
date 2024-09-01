@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your mood changer is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(min-width:360px) and (max-width:1061px)" href="responsive.css">
+    <link rel="stylesheet" media="screen and (max-width:359px)" href="responsive1.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="logo"><img src="logo.jpeg" alt="Spotify logo">Spotify</li>
+            <li class="up">Home</li>
+            <li class="up">About</li>
+            <li class="up">Contact Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Allu Arjun All time Hits</h2>
+        <div>
+            <div class="songlist">
+                <img src="buttabomma.jpeg" alt="">
+                <span>Butta Bomma</span><span class="playlist">3:18 <i id="1" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="srivalli.jpeg" alt="">
+                <span>Srivalli</span><span class="playlist">3:41 <i id="2" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="samaja.jpeg" alt="">
+                <span>Samajavaragamana</span><span class="playlist">3:39 <i id="3" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="ramulo.jpeg" alt="">
+                <span>Ramulo Ramula</span><span class="playlist">4:05 <i id="4" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="saami.jpeg" alt="">
+                <span>Saami Saami</span><span class="playlist">3:46 <i id="5" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="daako.jpeg" alt="">
+                <span>Daako Daako Meka</span><span class="playlist">3:56 <i id="6" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <div class="songlist">
+                <img src="oo antava.jpeg" alt="">
+                <span>Oo antava oo antava</span><span class="playlist">3:47 <i id="7" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            <!-- <div class="songlist">
+                <img src="eyy bidda.jpeg" alt="">
+                <span>Eyy Bidda </span><span class="playlist">5:00 <i id="8" class="far songitemplay fa-play-circle"></i></span>
+            </div> -->
+            <div class="songlist">
+                <img src="siri.jpeg" alt="">
+                <span>Siri Vennela</span><span class="playlist">4:13 <i id="9" class="far songitemplay fa-play-circle"></i></span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fas fa-2x fa-step-backward"></i>
+            <i id="masterplay" class="fas fa-2x fa-play-circle"></i>
+            <i id="next" class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" id="gif" width="45px" alt="">
+            <span id="masterSongName">Butta Bomma</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8cb67e2330.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
